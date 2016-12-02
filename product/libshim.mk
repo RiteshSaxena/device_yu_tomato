@@ -1,4 +1,5 @@
 # Libshims
 PRODUCT_PACKAGES += \
     libshim_boringssl \
-    libshim_parcel
+    libshim_parcel \
+    libshims_camera
