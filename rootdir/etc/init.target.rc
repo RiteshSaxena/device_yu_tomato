@@ -26,7 +26,7 @@
 #
 
 on init
-    export LD_SHIM_LIBS "/system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so:/system/vendor/lib64/lib-imscamera.so|libshims_camera.so"
+    export LD_SHIM_LIBS "/system/vendor/lib64/lib-imsdpl.so|libshim_boringssl.so:/system/vendor/lib64/lib-imscamera.so|libshims_camera.so:/system/vendor/lib64/lib-imsvt.so|libshims_ims.so"
 
 on boot
     # change file owner for factory test
